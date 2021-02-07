@@ -2,6 +2,7 @@
 
 <head>
   <title>Chris Nurse</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     html {
       scroll-behavior: smooth;
@@ -22,15 +23,31 @@
       height: 100%;
     }
 
-    .link {
+    .toc_link.design:hover {
+      fill: #164d64;
+    }
+
+    .toc_link.illustration:hover {
+      fill: #164d64;
+    }
+
+    .toc_link.va:hover {
+      fill: #164d64;
+    }
+
+    .link_container {
+      display: block;
       position: sticky;
       bottom: 20px;
-      left: calc(50% - 130px);
-      width: 130px;
 
+      display: flex;
+      justify-content: center;
+    }
+
+    .link {
       padding: 15px 20px;
       background: #1b3944;
-      border-radius: 10px;
+      border-radius: 5px;
       border: 1px solid #222;
 
       color: white;
@@ -45,21 +62,197 @@
   </style>
 </head>
 
+<body>
+  <!-- <a class="toc_link design" href="#Density">01</a> -->
 
-<img id="Contents" src="2021contentsW.png" width="100%" />
-<img id="Density" src="2021density.png" width="100%" />
-<img id="Lamp" src="2021lamp.png" width="100%" />
-<img id="Wreck" src="2021wreck1.png" width="100%" />
-<img id="Site" src="2021siteanalysis-01.png" width="100%" />
-<img id="Neck1" src="2021neckR.png" width="100%" />
-<img id="Neck2" src="2021neckRpage2.png" width="100%" />
-<img id="Iron" src="2021howironic.png" width="100%" />
-<img id="Poker" src="2021poker.png" width="100%" />
-<img id="Journey" src="2021journey.png" width="100%" />
+  <section id="Cover">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1224 792">
+      <defs>
+        <clipPath id="clip-path">
+          <polygon
+            points="335.89 364.11 335.89 403.36 414 403.36 414 383.77 612 383.77 612 403.36 612 403.36 612 364.11 335.89 364.11"
+            style="fill:none" />
+        </clipPath>
+      </defs>
+      <g id="Layer_2" data-name="Layer 2">
+        <rect width="1224" height="792" style="fill:none" />
+      </g>
+      <g id="Layer_3" data-name="Layer 3">
+        <line x1="414" y1="393.76" x2="612" y2="393.76"
+          style="fill:#231f20;stroke:#1b3944;stroke-miterlimit:10;stroke-width:20px" />
+        <line x1="612" y1="393.76" x2="744" y2="393.76"
+          style="fill:#1b3944;stroke:#83152c;stroke-miterlimit:10;stroke-width:20px" />
+        <line x1="744" y1="393.76" x2="810" y2="393.76"
+          style="fill:#83152c;stroke:#f1b01a;stroke-miterlimit:10;stroke-width:20px" /><text
+          transform="translate(413.46 419.19)"
+          style="font-size:7.5px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">Bachelor of Design
+          in<tspan x="77.09" y="0" style="letter-spacing:-0.03665364583333333em"> </tspan>
+          <tspan x="78.9" y="0" style="letter-spacing:0.00006510416666666667em">Architecture, Landscape</tspan>
+          <tspan x="166.43" y="0" style="letter-spacing:-0.03658854166666667em"> </tspan>
+          <tspan x="168.24" y="0">Architecture, and Urbanism</tspan>
+          <tspan x="0" y="9">University of British Columbia, </tspan>
+          <tspan x="111.68" y="9" style="letter-spacing:-0.05475260416666667em">V</tspan>
+          <tspan x="116.28" y="9">ancouve</tspan>
+          <tspan x="146.7" y="9" style="letter-spacing:-0.0546875em">r</tspan>
+          <tspan x="149.21" y="9" style="letter-spacing:-0.00006510416666666667em">, BC</tspan>
+          <tspan x="0" y="18">2021</tspan>
+        </text><text transform="translate(821.49 428.46)"
+          style="font-size:7.5px;fill:#231f20;font-family:Helvetica-Bold, Helvetica;font-weight:700">Chris Nurse<tspan
+            style="fill:#58595b">
+            <tspan x="-47.73" y="9">chrisnurse@outlook.com</tspan>
+          </tspan></text>
+      </g>
+      <g id="Layer_4" data-name="Layer 4"><text transform="translate(358.81 390.68)"
+          style="font-size:23px;fill:#fff;font-family:Helvetica-Bold, Helvetica;font-weight:700">PORTFOLIO</text>
+        <rect x="413.98" y="383.69" width="198" height="19.59" style="fill:none" />
+        <g style="clip-path:url(#clip-path)"><text transform="translate(358.82 390.79)"
+            style="font-size:23px;fill:#1b3944;font-family:Helvetica-Bold, Helvetica;font-weight:700">PORTFOLIO</text>
+        </g>
+      </g>
+      <g id="Layer_5" data-name="Layer 5">
+        <rect x="410.73" y="383.78" width="5.88" height="6.9" style="fill:#fff" />
+      </g>
+    </svg>
+  </section>
+  <section id="TOC">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1224 792">
+      <g id="border">
+        <rect width="1224" height="792" style="fill:none" />
+      </g>
+      <g id="Layer_3" data-name="Layer 3">
+        <line x1="54" y1="395.12" x2="360" y2="395.12"
+          style="fill:#231f20;stroke:#1b3944;stroke-miterlimit:10;stroke-width:20px" />
+        <line x1="564" y1="395.12" x2="666" y2="395.12"
+          style="fill:#83152c;stroke:#f1b01a;stroke-miterlimit:10;stroke-width:20px" /><text
+          transform="translate(698.01 380.12)"
+          style="font-size:23px;fill:#1b3944;font-family:Helvetica-Bold, Helvetica;font-weight:700">
+          <tspan style="font-size:18px">
+            <tspan x="0" y="21.6">Design</tspan>
+          </tspan>
+        </text><text transform="translate(862.19 380.12)"
+          style="font-size:23px;fill:#83152d;font-family:Helvetica-Bold, Helvetica;font-weight:700">
+          <tspan style="font-size:18px">
+            <tspan x="0" y="21.6">Illustration</tspan>
+          </tspan>
+        </text><text transform="translate(1012.73 380.12)"
+          style="font-size:23px;fill:#f1b01a;font-family:Helvetica-Bold, Helvetica;font-weight:700">
+          <tspan style="font-size:18px">
+            <tspan x="0" y="21.6" style="letter-spacing:-0.017578125em">V</tspan>
+            <tspan x="11.69" y="21.6">Visual</tspan>
+            <tspan x="52.71" y="21.6" style="letter-spacing:-0.03662109375em"> </tspan>
+            <tspan x="57.05" y="21.6">Arts</tspan>
+          </tspan>
+        </text><text transform="translate(697.45 431.7)"
+          style="font-size:18px;fill:#231f20;font-family:Helvetica-Bold, Helvetica;font-weight:700">
+          <a class="toc_link design" href="#Density">01</a>
+          <tspan x="0" y="21.6">02</tspan>
+          <tspan x="0" y="43.2">03</tspan>
+          <tspan x="0" y="64.8">04</tspan>
+        </text><text transform="translate(862.93 431.7)"
+          style="font-size:18px;fill:#231f20;font-family:Helvetica-Bold, Helvetica;font-weight:700">05<tspan x="0"
+            y="21.6">06</tspan></text><text transform="translate(1011.48 431.7)"
+          style="font-size:18px;fill:#231f20;font-family:Helvetica-Bold, Helvetica;font-weight:700">07<tspan x="0"
+            y="21.6">08</tspan></text>
+        <line x1="360" y1="395.12" x2="566.76" y2="395.12"
+          style="fill:#1b3944;stroke:#83152c;stroke-miterlimit:10;stroke-width:20px" />
+      </g>
+      <g id="Layer_4" data-name="Layer 4"><text transform="translate(81.56 375.89)"
+          style="font-size:7.5px;fill:#231f20;font-family:Helvetica-Bold, Helvetica;font-weight:700">
+          <tspan style="letter-spacing:-0.07369791666666667em">T</tspan>
+          <tspan x="4.03" y="0">able of Contents</tspan>
+        </text><text transform="translate(774.1 485.13)"
+          style="font-size:8px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">
+          <tspan style="letter-spacing:-0.017578125em">W</tspan>
+          <tspan x="7.41" y="0">reck Beach</tspan>
+        </text><text transform="translate(737.6 441.21)"
+          style="font-size:8px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">Density in Smart
+          Cities</text><text transform="translate(799.29 463.55)"
+          style="font-size:8px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">PRISM</text><text
+          transform="translate(772.07 507.13)"
+          style="font-size:8px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">Site<tspan x="14.67"
+            y="0" style="letter-spacing:-0.03662109375em"> </tspan>
+          <tspan x="16.6" y="0">Analysis:</tspan>
+          <tspan x="-33.21" y="9.6">False Creek, </tspan>
+          <tspan x="16.15" y="9.6" style="letter-spacing:-0.0546875em">V</tspan>
+          <tspan x="21.05" y="9.6">ancouer</tspan>
+        </text>
+        <line x1="725.86" y1="475.07" x2="823.91" y2="475.07"
+          style="fill:#83152c;stroke:#58595b;stroke-miterlimit:10;stroke-width:0.25px" />
+        <line x1="725.86" y1="496.44" x2="823.91" y2="496.44"
+          style="fill:#83152c;stroke:#58595b;stroke-miterlimit:10;stroke-width:0.25px" />
+        <line x1="725.86" y1="453.2" x2="823.91" y2="453.2"
+          style="fill:#83152c;stroke:#58595b;stroke-miterlimit:10;stroke-width:0.25px" />
+        <line x1="725.86" y1="431.7" x2="823.91" y2="431.7"
+          style="fill:#83152c;stroke:#58595b;stroke-miterlimit:10;stroke-width:0.25px" /><text
+          transform="translate(969 441.21)"
+          style="font-size:8px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">Neck</text><text
+          transform="translate(951.95 463.55)"
+          style="font-size:8px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">How
+          Ironic</text><text transform="translate(989.12 438.65)"
+          style="font-size:4px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">®</text>
+        <line x1="894.07" y1="453.2" x2="992.12" y2="453.2"
+          style="fill:#83152c;stroke:#58595b;stroke-miterlimit:10;stroke-width:0.25px" />
+        <line x1="894.07" y1="431.7" x2="992.12" y2="431.7"
+          style="fill:#83152c;stroke:#58595b;stroke-miterlimit:10;stroke-width:0.25px" /><text
+          transform="translate(1098.57 441.21)"
+          style="font-size:8px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">Poker
+          Face</text><text transform="translate(1110.1 463.55)"
+          style="font-size:8px;fill:#58595b;font-family:Helvetica-Bold, Helvetica;font-weight:700">Journey</text>
+        <line x1="1042.46" y1="453.2" x2="1140.5" y2="453.2"
+          style="fill:#83152c;stroke:#58595b;stroke-miterlimit:10;stroke-width:0.25px" />
+        <line x1="1042.46" y1="431.7" x2="1140.5" y2="431.7"
+          style="fill:#83152c;stroke:#58595b;stroke-miterlimit:10;stroke-width:0.25px" />
+        <path d="M54,791.12" style="fill:#fff;stroke:#231f20;stroke-miterlimit:10" />
+      </g>
+    </svg>
+  </section>
 
-<a class="link" href="https://drive.google.com/file/d/18KeCJQ4kur9BLP-EfYzhpHcbHcKhdvtQ/view?usp=sharing"
-  target="_blank">View
-  PDF version</a>
+  <section id="Density">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1224 793.77">
+      <g id="Layer_3" data-name="Layer 3">
+        <rect width="1224" height="793.77" style="fill:#092b39" />
+      </g>
+      <g id="Layer_2" data-name="Layer 2">
+        <image width="5400" height="7200" transform="translate(612 0.88) scale(0.11 0.11)" xlink:href="Density.jpg" />
+      </g>
+      <g id="Layer_4" data-name="Layer 4">
+        <polyline points="0 396 306 396 504 396" style="fill:#231f20" />
+        <polyline points="0 386 558 386 558 406 0 406"
+          style="fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:1.05220866203308px" />
+        <path d="M436.78,479" transform="translate(0 0.88)" style="fill:#fff;stroke:#231f20;stroke-miterlimit:10" />
+        <text transform="translate(551.61 352.98)"
+          style="font-size:23px;fill:#fff;font-family:Helvetica-Bold, Helvetica;font-weight:700">
+          <tspan style="font-size:18px">
+            <tspan x="-189.67" y="21.6">Density in Smart Cities</tspan>
+          </tspan>
+        </text><text transform="translate(361.98 425.87)"
+          style="font-size:6.5px;fill:#fff;font-family:Helvetica-Bold, Helvetica;font-weight:700">An infographic
+          highlighting specific issues of densification and<tspan x="25.5" y="7.8">urbanziation in East</tspan>
+          <tspan x="87.25" y="7.8" style="letter-spacing:-0.03665865384615385em"> </tspan>
+          <tspan x="88.82" y="7.8">Asia using smart city technologies</tspan>
+        </text><text transform="translate(53.83 66.86)"
+          style="font-size:18px;fill:#fff;font-family:Helvetica-Bold, Helvetica;font-weight:700">01</text>
+        <line x1="79.23" y1="67.1" x2="79.23" y2="54"
+          style="fill:#231f20;stroke:#1b3944;stroke-miterlimit:10;stroke-width:2.5px" />
+      </g>
+    </svg>
+  </section>
+
+  <img id="Lamp" src="2021lamp.png" width="100%" />
+  <img id="Wreck" src="2021wreck1.png" width="100%" />
+  <img id="Site" src="2021siteanalysis-01.png" width="100%" />
+  <img id="Neck1" src="2021neckR.png" width="100%" />
+  <img id="Neck2" src="2021neckRpage2.png" width="100%" />
+  <img id="Iron" src="2021howironic.png" width="100%" />
+  <img id="Poker" src="2021poker.png" width="100%" />
+  <img id="Journey" src="2021journey.png" width="100%" />
+
+  <div class="link_container">
+    <a class="link" href="https://drive.google.com/file/d/18KeCJQ4kur9BLP-EfYzhpHcbHcKhdvtQ/view?usp=sharing"
+      target="_blank">
+      View PDF
+    </a>
+  </div>
 </body>
 
 </html>
